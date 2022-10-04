@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+    box-sizing: border-box;
+}   
+body{
+    background-color: #d8d9db;
+}
+header{
+    display: flex;
+    height: 80px;
+}
+.header_ul{ 
+    display: flex; 
+    list-style: none;
+    justify-content: right; 
+    flex-grow: 1; 
+    padding-right: 90px; 
+} 
+.header_ul>li {
+    margin: 15px;
+    line-height: 50px;
+    cursor: pointer;
+}
+.header_logo {
+    height: 80px;
+    margin-left: 30px;
+}
+.banner{
+    background-image: url(bannerphoto.jpg); 
+    height: 400px;
+    background-position: center;
+    background-size: cover; 
+    width: 100%;
+} 
+.banner_text{  
+    position: absolute; 
+    margin-left: 150px; 
+    margin-top: 130px;
+} 
+.digital{ 
+    color: #fff; 
+    font-size: 50px;
+} 
+.tatiana{
+    color: #29B473;  
+    font-size: 25px;
+} 
+.button{ 
+    display: block;
+    background-color:  #29B473; 
+    color: #fff; 
+    height: 35px; 
+    width: 170px; 
+    text-align: center; 
+    font-size: small; 
+    border-radius: 5px; 
+    margin-top: 15px; 
+    line-height: 30px;
+}  
+.textbox{  
+    display: flex;
+    height: 120px; 
+    width: 100%;  
+    margin-top: -60px;  
+    justify-content: center; 
+    
+}
+.textbox1{
+    padding: 24px ;
+    display: flex; 
+    justify-content: space-between;
+    background-color:#fff; 
+    list-style: none; 
+    height: 100px; 
+    width: 1000px;  
+    border-radius: 7px; 
+    box-shadow: 5px 5px 10px 1px;
+} 
+.textbox1>li{  
+    display: flex; 
+    align-items: flex-start;
+    width: 30%;
+    margin-top: 5px; 
+    cursor: pointer; 
+    font-size: 20px; 
+    font-weight: bold;  
+}   
+.logo{
+    height: 45px; 
+    margin-right: 12px;
+} 
+.otxive{
+    display: flex; 
+    justify-content: space-around;
+} 
+.intro{
+    height: 200px; 
+    width: 250px;
+} 
+.react{
+    height: 200px; 
+    width: 250px;
+} 
+.data{
+    height: 200px; 
+    width: 250px;
+}
+.digital2{
+    height: 200px; 
+    width: 250px;
+}  
+.photo{
+    width: 300px; 
+    padding: 0px; 
+    position:relative; 
+    display: block;  
+    background-color: #fff;
+} 
